@@ -20,4 +20,10 @@ public class StudentServiceImpl implements StudentService {
     public List<Student> getAllStudent() {
         return studentRepository.findAll();
     }
+
+    public Student saveStudent(Student student) {
+        return studentRepository.save(student);
+    }
+
+
 }
