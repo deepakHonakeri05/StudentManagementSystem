@@ -16,17 +16,17 @@
 
               <div class="form-group">
                 <label>Student First Name</label>
-                <input type="text" name="firstName" th:field="firstName" placeholder="Enter Student First Name" class="form-control"/>
+                <input type="text" name="firstName" th:field="*{firstName}" placeholder="Enter Student First Name" class="form-control"/>
               </div>
 
               <div class="form-group">
                 <label>Student Last Name</label>
-                <input type="text" name="lastName" th:field="lastName" placeholder="Enter Student Last Name" class="form-control"/>
+                <input type="text" name="lastName" th:field="*{lastName}" placeholder="Enter Student Last Name" class="form-control"/>
               </div>
 
               <div class="form-group">
                 <label>Student Email Name</label>
-                <input type="text" name="email" th:field="email" placeholder="Enter Student Email " class="form-control"/>
+                <input type="text" name="email" th:field="*{email}" placeholder="Enter Student Email " class="form-control"/>
               </div>
 
               <div class="box-footer">
